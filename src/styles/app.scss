@@ -1,0 +1,52 @@
+@import 'flex-center';
+
+$bg-color : rgba(255, 255, 255, 0.5);
+$font-color : rgb(0, 0, 0);
+
+.main-card{
+    margin: 15px;
+    padding: 25px;
+    
+    @include center;
+    
+    color: $font-color;
+    min-width: min-content;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    .left-content{
+        width: 59%;
+        h1{
+            font-size: 4em;
+            font-weight: 1000;
+        }
+        p{
+            font-size: 2em;
+        }
+        
+    }
+
+    img{
+        width:40%;
+        min-width: 200px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 579px){
+    .main-card{
+        .left-content{
+            padding: 0;
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    
+}
