@@ -17,7 +17,6 @@ function App(props) {
       <Router>
         <Background />
         <Navigation />
-        <div className="container">
         <Switch>
             <Route path="/home" component={Home} />
             
@@ -25,9 +24,6 @@ function App(props) {
               <Redirect to="/home" />
             </Route>
         </Switch>
-        </div>
-        
-          
       </Router>
       
 

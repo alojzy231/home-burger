@@ -1,0 +1,54 @@
+@import 'flex-center';
+
+$font-color : rgb(0, 0, 0);
+
+.main-card{
+    margin: 15px;
+    padding: 25px;
+
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    z-index: 0;
+    
+
+    @include center;
+    
+    color: $font-color;
+    min-width: min-content;
+
+    z-index: 1000;
+    .left-content{
+        width: 59%;
+        h1{
+            font-size: 4em;
+            font-weight: 1000;
+        }
+        p{
+            font-size: 2em;
+        }
+        
+    }
+
+    img{
+        width:40%;
+        min-width: 200px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 579px){
+    .main-card{
+        .left-content{
+            padding: 0;
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    
+}

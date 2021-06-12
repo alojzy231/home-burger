@@ -1,5 +1,5 @@
 import {Nav, Navbar} from 'react-bootstrap';
-
+import './styles/navbar.css'
 const Navigation = () => {
     return (
         <Navbar sticky collapseOnSelect expand="lg" bg="light" variant="light">

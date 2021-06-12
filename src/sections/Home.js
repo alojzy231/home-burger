@@ -1,3 +1,4 @@
+import '../styles/home.css'
 import burger from '../img/Craft-beef-burger-with-cheese-png.png'
 
 export default function Home (){
