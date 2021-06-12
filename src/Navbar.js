@@ -2,7 +2,7 @@ import {Nav, Navbar} from 'react-bootstrap';
 
 const Navigation = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar sticky collapseOnSelect expand="lg" bg="light" variant="light">
         <Navbar.Brand href="home">Home Burger</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

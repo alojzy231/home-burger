@@ -1,46 +1,4 @@
 .app {
-  height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, color-stop(5%, #e64980), color-stop(95%, #ff8787));
-  background: linear-gradient(90deg, #e64980 5%, #ff8787 95%);
-  min-width: 340px;
-}
-
-.app .background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.app .background .shape-fill {
-  fill: white;
-}
-
-.app .background svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 90vh;
-}
-
-.app .container {
-  height: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background-color: linear-gradient(90deg, #e64980 5%, #ff8787 95%);
 }
 /*# sourceMappingURL=index.css.map */

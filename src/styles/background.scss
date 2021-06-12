@@ -1,0 +1,22 @@
+.background{
+    background: linear-gradient(90deg, #e64980 5%, #ff8787 95%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    svg{
+        position: sticky;
+        width: 100%;
+        animation: breathing 10s ease infinite alternate;
+    }
+    .shape-fill{
+        fill: white;
+    }
+}
+
+@keyframes breathing {
+    from{height: 10%;}
+    to{height: 100%;}
+}

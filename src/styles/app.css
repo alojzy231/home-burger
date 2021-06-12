@@ -1,6 +1,17 @@
+.app {
+  position: relative;
+  min-height: 100vh;
+  min-width: 340px;
+}
+
 .main-card {
   margin: 15px;
   padding: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,9 +31,6 @@
   min-width: -webkit-min-content;
   min-width: -moz-min-content;
   min-width: min-content;
-  position: fixed;
-  left: 0;
-  right: 0;
   z-index: 1000;
 }
 
