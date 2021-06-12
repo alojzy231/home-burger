@@ -1,20 +1,32 @@
 @import 'flex-center';
 
-$bg-color : rgba(255, 255, 255, 0.5);
 $font-color : rgb(0, 0, 0);
+
+$bg-color : linear-gradient(90deg, #e64980 5%, #ff8787 95%);
+  
+.app{
+    
+    position: relative;
+    min-height: 100vh;
+    min-width: 340px;
+
+}
 
 .main-card{
     margin: 15px;
     padding: 25px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
     
+    transform: translate(-50%, -50%);
+
     @include center;
     
     color: $font-color;
     min-width: min-content;
 
-    position: fixed;
-    left: 0;
-    right: 0;
     z-index: 1000;
     .left-content{
         width: 59%;
