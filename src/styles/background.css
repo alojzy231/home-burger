@@ -12,9 +12,10 @@
 .background svg {
   position: -webkit-sticky;
   position: sticky;
+  height: 100%;
   width: 100%;
-  -webkit-animation: breathing 10s ease infinite alternate;
-          animation: breathing 10s ease infinite alternate;
+  -webkit-animation: breathing 8s ease 1;
+          animation: breathing 8s ease 1;
 }
 
 .background .shape-fill {

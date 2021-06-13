@@ -8,8 +8,9 @@
     z-index: -1;
     svg{
         position: sticky;
+        height: 100%;
         width: 100%;
-        animation: breathing 10s ease infinite alternate;
+        animation: breathing 8s ease 1;
     }
     .shape-fill{
         fill: white;
