@@ -10,15 +10,19 @@ import {
 import Background from './Background'
 import Navigation from './Navbar';
 import Home from './sections/Home';
+import Menu from './sections/Menu/Menu';
+import Modal from './sections/Menu/Modal';
 
 function App(props) {
   return (
     <div className="app">
       <Router>
-        <Background />
+        <Modal />
         <Navigation />
+        <Background />
         <Switch>
             <Route path="/home" component={Home} />
+            <Route path="/menu" component={Menu} />
             
             <Route path="/">
               <Redirect to="/home" />

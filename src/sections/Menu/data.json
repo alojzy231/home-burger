@@ -1,0 +1,45 @@
+{
+    "dishes" : [
+        {
+            "name" : "Home Burger",
+            "description" : "Our special, which lets you feel like in home.",
+            "img" : "HomeBurger",
+            "ingredients" : [
+                "Sliced cheese (our favorite is thick-sliced, medium cheddar)",
+                "Dill pickle slices",
+                "Fresh red onions (or caramelized onions)",
+                "Tomato",
+                "Green leaf or iceberg lettuce",
+                "Avocado",
+                "Bacon + pineapple + the BBQ sauce below",
+                "Jalapeños to add some heat"
+            ]
+        },
+        {
+            "name" : "Aussie Burger",
+            "description" : "Turns out, Australians really like their burger toppings.",
+            "img" : "AussieBurger",
+            "ingredients" : [
+                "Lettuce",
+                "Tomato",
+                "Cheddar cheese",
+                "Onions",
+                "Bacon",
+                "Chilli mayo sauce",
+                "Grilled pineapple",
+                "A runny fried egg",
+                "Pickled beets"
+            ]
+        },
+        {
+            "name" : "French Fries",
+            "description" : "Perfectly fried chips with a pinch of salt... and love",
+            "img" : "FrenchFries",
+            "ingredients" : [
+               "Young potatoes",
+               "Salt",
+               "Sauce (ketchup, mayonnaise or BBQ sauce)"
+            ]
+        }
+    ]
+}
