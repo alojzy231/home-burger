@@ -11,11 +11,13 @@ import Background from './Background'
 import Navigation from './Navbar';
 import Home from './sections/Home';
 import Menu from './sections/Menu/Menu';
+import Modal from './sections/Menu/Modal';
 
 function App(props) {
   return (
     <div className="app">
       <Router>
+        <Modal />
         <Navigation />
         <Background />
         <Switch>

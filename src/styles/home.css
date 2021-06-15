@@ -5,7 +5,6 @@
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   top: 50%;
-  z-index: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,7 +24,6 @@
   min-width: -webkit-min-content;
   min-width: -moz-min-content;
   min-width: min-content;
-  z-index: 1000;
 }
 
 .main-card .left-content {
