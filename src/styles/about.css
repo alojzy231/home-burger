@@ -1,0 +1,43 @@
+.about {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 25px;
+}
+
+.about .main {
+  width: 90%;
+  background: white;
+  padding: 15px;
+  border: black dashed 2px;
+  margin: 25px;
+}
+
+.about .main h1 {
+  text-align: center;
+}
+
+.about .map {
+  width: 80%;
+  height: 60vh;
+}
+
+.about .map .marker {
+  color: #fff;
+  font-weight: bolder;
+  background: #EE5C83;
+  width: 4rem;
+  height: 4rem;
+  padding-top: 1rem;
+  border-radius: 50%;
+  text-align: center;
+}
+/*# sourceMappingURL=about.css.map */
