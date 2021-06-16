@@ -41,7 +41,7 @@ class ModalRoot extends React.Component{
 
                     <Modal.Body>
                         <div className="text-center">
-                            <img src={this.props.modalProps.img} className="img-fluid"/>
+                            <img src={this.props.modalProps.img} alt={this.props.modalProps.name} className="img-fluid"/>
                         </div>
                         
                         <p>{this.props.modalProps.description}</p>

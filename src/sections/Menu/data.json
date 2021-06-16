@@ -32,6 +32,31 @@
             ]
         },
         {
+            "name" : "Cheesy Juicy Lucy Burger",
+            "description" : "Cheesy Juicy Lucy Burger is a cheeseburger with the cheese inside instead of on top.",
+            "img" : "CheesyJuicyLucyBurger",
+            "ingredients" : [
+                "Lettuce",
+                "Tomato",
+                "American cheese",
+                "Onions",
+                "Garlic"
+            ]
+        },
+        {
+            "name" : "Juicy Steakhouse Burgers",
+            "description" : "These are the ultimate steakhouse burgers. They are packed with flavor and reliably juicy, even when cooked to well-done.",
+            "img" : "JuicySteakhouseBurgers",
+            "ingredients" : [
+                "Lettuce",
+                "Tomato",
+                "Worcestershire sauce",
+                "Onions",
+                "Scallions",
+                "Garlic"
+            ]
+        },
+        {
             "name" : "French Fries",
             "description" : "Perfectly fried chips with a pinch of salt... and love",
             "img" : "FrenchFries",
