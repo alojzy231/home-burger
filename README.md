@@ -1,6 +1,9 @@
 ### General info
 Webapp about imaginary restaurant 'Home Burger'. App is made using React.
-Project uses also: Redux, google-map-react and sass.
+Project uses also: Redux, google-map-react and Sass.
+
+## Check the project
+https://home-burger.herokuapp.com/
 
 # Getting Started with Create React App
 
