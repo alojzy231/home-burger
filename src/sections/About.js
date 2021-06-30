@@ -1,6 +1,8 @@
 import '../styles/about.css';
 import GoogleMapReact from 'google-map-react';
  
+const GOOGLE_MAP_API_KEY = process.env.REACT_APP_GOOGLE_MAP_API_KEY;
+
 const Marker = ({ text }) => <div className="marker">{text}</div>;
 
 export default function About(){
@@ -10,8 +12,8 @@ export default function About(){
           lng: 148.584385
         },
         zoom: 17
-      };
-
+    };
+    
     return (
         <div className="about">
             <div className="main">
@@ -21,7 +23,7 @@ export default function About(){
             </div>
             <div className="map">
                 <GoogleMapReact
-                    bootstrapURLKeys={{ key: 'AIzaSyDZ2iYCg5l6KYVgYihFW4sWTO3bd_oB0vw' }}
+                    bootstrapURLKeys={{ key: GOOGLE_MAP_API_KEY }}
                     defaultCenter={defaultProps.center}
                     defaultZoom={defaultProps.zoom}
                 >
