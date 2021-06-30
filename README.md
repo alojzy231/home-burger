@@ -5,6 +5,9 @@ Project uses also: Redux, google-map-react and Sass.
 ## Check the project
 https://home-burger.herokuapp.com/
 
+### Running project
+If you want to run this project on your local environment create .env file with REACT_APP_GOOGLE_MAP_API_KEY=[your google map api key] variable in root directory.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
